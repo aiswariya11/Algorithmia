@@ -1,0 +1,14 @@
+1.Start from the leftmost element of given arr[] and one by one compare element x with each element of arr[]
+
+2.If x matches with any of the element, return the index value.
+
+3.If x doesn’t  with any of elements in arr[] , return -1 or element not found.
+
+def linearsearch(arr, x):
+   for i in range(len(arr)):
+      if arr[i] == x:
+         return i
+   return -1
+arr = ['t','u','t','o','r','i','a','l']
+x = 'a'
+print("element found at index "+str(linearsearch(arr,x)))
