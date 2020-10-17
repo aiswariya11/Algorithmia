@@ -1,0 +1,19 @@
+//converting string to uppercase 
+
+#include<stdio.h>
+#include<ctype.h>
+void main()
+{
+    int i=0;
+    char cap;
+    char str[]="aRigAto GozAIMasu"; //sample string
+    
+    //loop to go through each letter
+    while(str[i])
+    {
+        cap=str[i];
+        printf("%c",toupper(cap)); //prints letter in uppercase
+        i++;
+    }
+
+}
