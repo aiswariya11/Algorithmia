@@ -1,0 +1,3 @@
+sstr='aRigAto GozAIMasu'
+sstr=sstr.upper()
+print(sstr)
